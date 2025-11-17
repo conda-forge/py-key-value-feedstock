@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: py-key-value
-  version: "0.2.8"
+  version: "0.3.0"
   python_check_max: "3.14"
 
 recipe:
@@ -12,10 +12,10 @@ recipe:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/py_key_value_shared/py_key_value_shared-${{ version }}.tar.gz
-    sha256: 703b4d3c61af124f0d528ba85995c3c8d78f8bd3d2b217377bd3278598070cc1
+    sha256: 8fdd786cf96c3e900102945f92aa1473138ebe960ef49da1c833790160c28a4b
     target_directory: py-key-value-shared
   - url: https://pypi.org/packages/source/${{ name[0] }}/py_key_value_aio/py_key_value_aio-${{ version }}.tar.gz
-    sha256: c0cfbb0bd4e962a3fa1a9fa6db9ba9df812899bd9312fa6368aaea7b26008b36
+    sha256: 858e852fcf6d696d231266da66042d3355a7f9871650415feef9fca7a6cd4155
     target_directory: py-key-value-aio
 
 build:

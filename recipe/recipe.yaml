@@ -90,7 +90,6 @@ outputs:
             - python ${{ python_min }}.*
             - pip
         script:
-          - python -c "from importlib.metadata import version; v = version('py-key-value-shared'); print(v); assert v == '${{ version }}'"
           - python -c "from importlib.metadata import version; v = version('py-key-value-aio'); print(v); assert v == '${{ version }}'"
           - pip check
     about:

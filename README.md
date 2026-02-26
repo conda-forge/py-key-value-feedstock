@@ -3,10 +3,6 @@ About py-key-value-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-key-value-feedstock/blob/main/LICENSE.txt)
 
-
-About py-key-value
-------------------
-
 Home: https://pypi.org/project/py-key-value-aio/
 
 Package license: Apache-2.0
@@ -14,19 +10,6 @@ Package license: Apache-2.0
 Summary: Shared Key-Value, A pluggable interface for KV Stores
 
 Development: https://github.com/strawgate/py-key-value/tree/main/key-value/key-value-aio
-
-Documentation: https://github.com/strawgate/py-key-value/blob/main/README.md
-
-About py-key-value-shared
--------------------------
-
-Home: https://pypi.org/project/py-key-value-shared/
-
-Package license: Apache-2.0
-
-Summary: Shared Key-Value, A pluggable interface for KV Stores
-
-Development: https://github.com/strawgate/py-key-value/tree/main/key-value/key-value-shared
 
 Documentation: https://github.com/strawgate/py-key-value/blob/main/README.md
 
@@ -49,7 +32,6 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-py--key--value--aio-green.svg)](https://anaconda.org/conda-forge/py-key-value-aio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-key-value-aio.svg)](https://anaconda.org/conda-forge/py-key-value-aio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-key-value-aio.svg)](https://anaconda.org/conda-forge/py-key-value-aio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-key-value-aio.svg)](https://anaconda.org/conda-forge/py-key-value-aio) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-py--key--value--shared-green.svg)](https://anaconda.org/conda-forge/py-key-value-shared) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-key-value-shared.svg)](https://anaconda.org/conda-forge/py-key-value-shared) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-key-value-shared.svg)](https://anaconda.org/conda-forge/py-key-value-shared) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-key-value-shared.svg)](https://anaconda.org/conda-forge/py-key-value-shared) |
 
 Installing py-key-value
 =======================
@@ -61,16 +43,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `py-key-value-aio, py-key-value-shared` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `py-key-value-aio` can be installed with `conda`:
 
 ```
-conda install py-key-value-aio py-key-value-shared
+conda install py-key-value-aio
 ```
 
 or with `mamba`:
 
 ```
-mamba install py-key-value-aio py-key-value-shared
+mamba install py-key-value-aio
 ```
 
 It is possible to list all of the versions of `py-key-value-aio` available on your platform with `conda`:

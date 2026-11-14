@@ -15,7 +15,7 @@ source:
     target_directory: py-key-value-aio
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 outputs:

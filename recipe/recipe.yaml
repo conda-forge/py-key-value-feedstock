@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: py-key-value
-  version: "0.4.6"
+  version: "0.5.0"
 
 recipe:
   name: py-key-value
@@ -11,11 +11,11 @@ recipe:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/py_key_value_aio/py_key_value_aio-${{ version }}.tar.gz
-    sha256: 267c03c3e24cb99d3097612f8a5cfd8e11785c6a2975e272db0e303ea1850bfd
+    sha256: 20808520093cf8ae005a0ecb89a0cf1875859b48f1087f4ba262b3adc1f80c5b
     target_directory: py-key-value-aio
 
 build:
-  number: 1
+  number: 0
   noarch: python
 
 outputs:
